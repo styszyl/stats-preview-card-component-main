@@ -1,0 +1,52 @@
+* {
+    /*font-family: 'Lexend Deca', sans-serif;*/
+    /*font-family: 'Inter', sans-serif;*/
+    color: white;
+}
+
+
+@media screen and (max-width: 375px) {
+
+    main {
+        padding: 50px 10px;
+        background-color: hsl(233, 47%, 7%);
+    }
+
+    .container {
+        border-radius: 10px;
+        background-color: hsl(244, 38%, 16%);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    h1 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        padding: 10px;
+    }
+    p {
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+
+    }
+    img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        opacity: 0.5;
+        z-index: 2;
+    }
+
+    .image-overlay {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        z-index: 1;
+        height: 100%;
+        width: auto;
+        background-color: hsl(277, 64%, 61%);
+    }
+}
