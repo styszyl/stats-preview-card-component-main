@@ -19,21 +19,27 @@
         flex-direction: column;
         text-align: center;
     }
+
     h1 {
         font-family: 'Lexend Deca', sans-serif;
         font-weight: 700;
         font-size: 25px;
         padding: 10px;
     }
+
     p {
         font-family: 'Inter', sans-serif;
         font-size: 15px;
         font-weight: 400;
         color: hsla(0, 0%, 100%, 0.75);
+        line-height: 1.7;
+        margin: 0;
     }
-    
 
+    .stats {
+        font-size: 20px;
     }
+
     img {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
